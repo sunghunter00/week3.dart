@@ -1,0 +1,15 @@
+import 'dart:io'; 
+
+void main() {
+  greetUser(); 
+}
+
+void greetUser() {
+  stdout.write('Enter your name: ');
+  String? name = stdin.readLineSync(); 
+  
+  String greeting = 'Hello'; ''
+  
+  print('$greeting, $name!');
+  print('Goodbye, $name'); 
+}
